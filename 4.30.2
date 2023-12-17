@@ -1,0 +1,29 @@
+Looking in indexes: https://mirrors.aliyun.com/pypi/simple
+Collecting transformers
+  Downloading https://mirrors.aliyun.com/pypi/packages/fc/04/0aad491cd98b09236c54ab849863ee85421eeda5138bbf9d33ecc594652b/transformers-4.36.1-py3-none-any.whl (8.3 MB)
+     ---------------------------------------- 8.3/8.3 MB 2.8 MB/s eta 0:00:00
+Requirement already satisfied: filelock in d:\software\anaconda3\envs\modnet\lib\site-packages (from transformers) (3.13.1)
+Requirement already satisfied: huggingface-hub<1.0,>=0.19.3 in d:\software\anaconda3\envs\modnet\lib\site-packages (from transformers) (0.19.4)
+Requirement already satisfied: numpy>=1.17 in d:\software\anaconda3\envs\modnet\lib\site-packages (from transformers) (1.26.2)
+Requirement already satisfied: packaging>=20.0 in d:\software\anaconda3\envs\modnet\lib\site-packages (from transformers) (23.2)
+Requirement already satisfied: pyyaml>=5.1 in d:\software\anaconda3\envs\modnet\lib\site-packages (from transformers) (6.0.1)
+Collecting regex!=2019.12.17 (from transformers)
+  Downloading https://mirrors.aliyun.com/pypi/packages/fc/85/0d1038f068900896a8590d6d0da198b90d31f731a39166a432aa2b92249b/regex-2023.10.3-cp39-cp39-win_amd64.whl (269 kB)
+     -------------------------------------- 269.6/269.6 kB 1.8 MB/s eta 0:00:00
+Requirement already satisfied: requests in d:\software\anaconda3\envs\modnet\lib\site-packages (from transformers) (2.31.0)
+Collecting tokenizers<0.19,>=0.14 (from transformers)
+  Downloading https://mirrors.aliyun.com/pypi/packages/9f/90/a6821e7757d2db194c16cbca78c80e206f30f6cc62c7f15fb27428f8c6dd/tokenizers-0.15.0-cp39-none-win_amd64.whl (2.2 MB)
+     ---------------------------------------- 2.2/2.2 MB 3.0 MB/s eta 0:00:00
+Collecting safetensors>=0.3.1 (from transformers)
+  Downloading https://mirrors.aliyun.com/pypi/packages/4e/96/f4ee4434d8b6452fe7d5d44df2e72d1c6b2add1c3a5fb5c81aae83cb90c6/safetensors-0.4.1-cp39-none-win_amd64.whl (277 kB)
+     -------------------------------------- 277.8/277.8 kB 2.5 MB/s eta 0:00:00
+Requirement already satisfied: tqdm>=4.27 in d:\software\anaconda3\envs\modnet\lib\site-packages (from transformers) (4.66.1)
+Requirement already satisfied: fsspec>=2023.5.0 in d:\software\anaconda3\envs\modnet\lib\site-packages (from huggingface-hub<1.0,>=0.19.3->transformers) (2023.12.1)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in d:\software\anaconda3\envs\modnet\lib\site-packages (from huggingface-hub<1.0,>=0.19.3->transformers) (4.8.0)
+Requirement already satisfied: colorama in d:\software\anaconda3\envs\modnet\lib\site-packages (from tqdm>=4.27->transformers) (0.4.6)
+Requirement already satisfied: charset-normalizer<4,>=2 in d:\software\anaconda3\envs\modnet\lib\site-packages (from requests->transformers) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in d:\software\anaconda3\envs\modnet\lib\site-packages (from requests->transformers) (3.6)
+Requirement already satisfied: urllib3<3,>=1.21.1 in d:\software\anaconda3\envs\modnet\lib\site-packages (from requests->transformers) (2.1.0)
+Requirement already satisfied: certifi>=2017.4.17 in d:\software\anaconda3\envs\modnet\lib\site-packages (from requests->transformers) (2023.11.17)
+Installing collected packages: safetensors, regex, tokenizers, transformers
+Successfully installed regex-2023.10.3 safetensors-0.4.1 tokenizers-0.15.0 transformers-4.36.1
