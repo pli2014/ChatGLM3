@@ -26,7 +26,7 @@ class WeatherInput(BaseModel):
 
 @tool("get_weather_tool", return_direct=True, args_schema=WeatherInput)
 def get_weather_tool(city_name: str) -> str:
-    """ get_weather_tool 根据 城市 `city_name` 获取当地的天气"""
+    """ get_weather_tool 根据城市获取当地的天气"""
     print(f"get_weather_tool the current weather for:{city_name}")
     return str({"city":city_name,"weather":"多云 23°C"})
 
